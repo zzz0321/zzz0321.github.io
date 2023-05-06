@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script src="script2.js"></script>
+    <title>Puzzle</title>
+    <style>
+      body{
+        margin:50px;
+        background:pink;
+      }
+      .game-title{
+        color:white;
+        text-align:center;
+        font-size:3em;
+        font-weight:normal;
+      }
+      h2{
+      text-align:center;
+      color:#363036;
+      font-size:1.25em;
+      }
+      .button{
+    background-color:lightpink;
+    color:black;
+    padding:10px 25px;
+     text align:center;
+     border-color: pink;
+     font-size:12px;
+   }
+        </style>
+  </head>
+  <body>
+    <h1 class="game-title">猜特色美食</h1>
+    <h2 id="myImg">猜猜以下图片是哪个地区的特色美食</h2>
+    <div style="text-align:center;">
+    <button onclick="tips()" style="background: lightpink;width: 100px;height: 35px;color:black;border-color:pink"><b>提示</b></button>
+    </div>
+    <br>
+    <div style="text-align:center;">
+      <img id="image" src="img/Food1.png" width="300px;height=350px;">
+      <img id="image1" src="img/Food2.png" width="300px;height=350px;">
+      <img id="image2" src="img/Food3.png" width="300px;height=350px;">
+      <br>
+      <img id="image3" src="img/Food4.png" width="300px;height=350px;">
+      <img id="image4" src="img/Food5.png" width="300px;height=350px;">
+      <img id="image5" src="img/Food6.png" width="300px;height=350px;">
+     </div>
+     <div style="text-align:center;">
+    <p>请点击按钮，写下你的答案</p>
+     </div>
+     <div style="text-align:center;">
+     <button onclick="answer()"class="button" ><b>答案一</b></button>
+    <button onclick="answer1()"class="button" ><b>答案二</b></button>
+     <button onclick="answer2()"class="button"><b>答案三</b></button>
+     <button onclick="answer3()"class="button"><b>答案四</b></button>
+     <button onclick="answer4()"class="button"><b>答案五</b></button>
+     <button onclick="answer5()"class="button"><b>答案六</b></button>
+     </div>
+  </body>
+</html>
